@@ -1,10 +1,22 @@
+#include <iostream>
+#include <string>
+
 /*
-	Project Assignment 1, written in C++
+	Database Project Assignment, written in C++
 	CS 457, from University of Nevada, Reno
 	by Curtis Chung
+	Date: 2/6/2020
 */
 
-int main () 
+using namespace std;
+
+int main (int argc, char * argv[]) 
 {
+	string line;
+
+	while (line != ".exit") {
+		cout << "> ";
+		cin >> line;
+	}
 	return 0;
 }
